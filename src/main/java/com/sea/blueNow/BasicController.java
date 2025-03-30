@@ -10,4 +10,9 @@ public class BasicController {
     public String index(){
         return "index";
     }
+
+    @GetMapping("/beachList")
+    public String beachList(){
+        return "beachList";
+    }
 }
